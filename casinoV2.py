@@ -461,7 +461,7 @@ bot_name = "CasinoBot"
 # Connexion au serveur IRC
 irc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 irc.connect((server, port))
-irc.send(f"USER {bot_name} {bot_name} {bot_name} :\x0310 bot casino beta-0.01 by pika42100 https://github.com/Pika42100.\n".encode()) # merci de ne pas Remplacez la source pour le respect du createur 
+irc.send(f"USER {bot_name} {bot_name} {bot_name} :\x0310 bot casino beta-0.01 by Max.\n".encode())
 irc.send(f"NICK {bot_name}\n".encode())
 irc.send(f"JOIN {channel}\n".encode())
 
